@@ -1,9 +1,6 @@
 $(document).ready(function(){
 	var compte = 0;
 	var messages = ["Yo nerd", "Ye serious mate?","Ye really dumb","Oh ffs" ];
-	var nb = 0;
-
-
 
 	$('img').click(
 		function(){
@@ -16,8 +13,7 @@ $(document).ready(function(){
 				var nb = Math.floor(Math.random() * messages.length);	
 				console.log(nb);
 				alert(messages[nb]);
-			}
-			// console.log(messages);
+			}// console.log(messages);
 		});
 	});
 
